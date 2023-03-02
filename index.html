@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="LariKarol">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <script src="js/resolucao.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculadora | PHP</title>
+</head>
+<body>
+    <main>
+        <section class="all-calc">
+            <section class="calc-row-1 border-calc">
+                <div class="border-calc">
+                    <span class="numero-calc" id="display"></span></div>
+                <div class="buttons-row1 button-espc">
+                    <button class="button-C" onclick=calculadora.ac()>C</button>
+                    <button class="button-raiz" onclick=calculadora.del()>D</button>
+                    <button class="button-porcentagem">%</button>
+                    <button class="button-divisao" onclick=calculadora.divisao()>÷</button>
+                </div>
+                <div class="buttons-row2 button-espc">
+                    <button class="button-numb7" onclick=calculadora.proximoNumero(7)>7</button>
+                    <button class="button-num8" onclick=calculadora.proximoNumero(8)>8</button>
+                    <button class="button-numb9" onclick=calculadora.proximoNumero(9)>9</button>
+                    <button class="button-multiplicacao" onclick=calculadora.multiplicacao()>x</button>
+                </div>
+                <div class="buttons-row3 button-espc">
+                    <button class="button-numb4" onclick=calculadora.proximoNumero(4)>4</button>
+                    <button class="button-num5" onclick=calculadora.proximoNumero(5)>5</button>
+                    <button class="button-numb6" onclick=calculadora.proximoNumero(6)>6</button>
+                    <button class="button-subtracao" onclick=calculadora.subtracao()>-</button>
+                </div>
+                <div class="buttons-row4 button-espc">
+                    <button class="button-numb1" onclick=calculadora.proximoNumero(1)>1</button>
+                    <button class="button-num2" onclick=calculadora.proximoNumero(2)>2</button>
+                    <button class="button-numb3" onclick=calculadora.proximoNumero(3)>3</button>
+                    <button class="button-soma" onclick=calculadora.adicao()>+</button>
+                </div>
+                <div class="buttons-row5">
+                    <button class="button-numb0" onclick=calculadora.proximoNumero(0)>0</button>
+                    <button class="button-ponto" onclick=calculadora.proximoNumero()>,</button>
+                    <button class="button-igual-result" onclick=calculadora.igual()>=</button>
+                </div>
+            </section>
+        </section>
+    </main>
+    <script type="text/javascript">calculadora.inicializacao();</script>
+</body>
+</html>

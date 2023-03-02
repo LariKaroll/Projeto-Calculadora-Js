@@ -1,0 +1,66 @@
+body{
+    background: rgb(24,171,180);
+    background: linear-gradient(90deg, rgba(24,171,180,1) 0%, rgba(28,28,140,1) 35%, rgba(0,212,255,1) 100%);
+    margin: 0;
+}
+
+button{
+    padding: 10px;
+    font-size: 40px;
+    width: 70px;
+    height: 80px;
+    border-radius: 8px;
+}
+
+.all-calc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    margin: 10px;
+}
+.border-calc{
+    border-radius: 8px;
+    border-color: white;
+    border-top: 1px;
+    border-width: 3px;
+    border-style: solid;
+    padding: 10px;
+}
+div .numero-calc{
+    padding:20px 0px 10px 10px;
+}
+.numero-calc{
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+.buttons-row1{
+    padding: 10px 0px 10px 0px;
+}
+.buttons-row2{
+    padding: 0px 0px 10px 0px;
+}
+.buttons-row3{
+    padding: 0px 0px 10px 0px;
+}
+.buttons-row4{
+    padding: 0px 0px 10px 0px;
+}
+.buttons-row5{
+    padding: 0px 0px 10px 0px;
+    margin-right: 10px;
+}
+.button-numb0{
+    margin-left: 5px;
+}
+.button-espc button{
+    margin-left: 5px;
+}
+
+.button-igual-result{
+    width: 160px;
+    height: 80px;
+}
